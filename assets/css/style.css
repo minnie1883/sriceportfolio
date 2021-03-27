@@ -1,22 +1,54 @@
-nav {
-  background-color: rebeccapurple;
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  --dark: rebeccapurple;
+  --dark-mid: #36454f;
+  --light-mid: #bdb5bd;
+  --light: #c0c0c0;
 }
 
-main {
-  background-color: #bdb5bd;
+html {
+  background-color: var(--light-mid);
+  font-size: 16px;
 }
 
-img {
-  border: 2px solid #36454f;
+body {
+  display: flexbox;
 }
 
 h1 {
-  background-color: rebeccapurple;
+  background-color: var(--dark);
+  height: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 26px;
 }
 
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+header {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: left;
+  padding: 0.5rem 1rem;
+}
+
+header > nav > ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+header > nav > ul > li::after {
+  content: "|";
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 #about-me {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -36,5 +68,5 @@ h1 {
 }
 
 footer {
-  background-color: #c0c0c0;
+  background-color: var(--light);
 }
