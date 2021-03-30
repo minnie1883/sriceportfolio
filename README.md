@@ -6,7 +6,7 @@ Welcome to my portfolio of my work. Here you will find links to previous work I 
 
 ## Portfolio
 
-[portfolio](./assets/Images/WebsitePortfolio.jpg) Here is a snapshot of my website.
+![portfolio](./assets/Images/WebsitePortfolio.jpg) Here is a snapshot of my website.
 
 ### GitHub Link
 
