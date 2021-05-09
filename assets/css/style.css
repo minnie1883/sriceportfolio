@@ -1,6 +1,5 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #f5cba7;
 }
 
 html {
@@ -8,42 +7,86 @@ html {
   height: 100%;
 }
 
-nav {
-  margin: 10px;
+nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 22px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: lightsalmon;
 }
 
 main {
-  margin-left: 10px;
-  margin-top: 20px;
-  display: inline-flex;
-}
-.about-me {
-  font-size: 10px;
+  background-color: lightsalmon;
 }
 
-.grid-work {
-  align-items: center;
-  margin-left: 10px;
-  margin-top: 20px;
+footer {
+  background-color: rebeccapurple;
+  padding: 20px;
 }
 
-.container {
+.portfolio {
+  background-color: rebeccapurple;
+  color: lightsalmon;
+  font-size: 20px;
+  margin: auto;
+  text-align: left;
+  padding: 30px;
+}
+
+.first {
+  width: 70%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
+.first img {
+  padding: 10px;
+}
+
+.second {
+  width: 50%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
+.third {
+  width: 50%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
+.forth {
+  width: 50%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
+.fifth {
+  width: 50%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
+.work {
+  width: 63%;
+  position: static;
+  margin: auto;
+  padding: 10px;
+  background-color: lightsalmon;
   flex: 3;
   display: inline;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.container2 {
-  flex: 3;
-  display: inline;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.container3 {
-  flex: 3;
-  display: inline;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin: auto;
+  position: static;
 }
