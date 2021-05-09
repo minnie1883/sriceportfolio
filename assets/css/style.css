@@ -22,6 +22,7 @@ nav a:hover {
 
 main {
   background-color: lightsalmon;
+  justify-content: center;
 }
 
 footer {
@@ -56,6 +57,13 @@ footer {
   margin: auto;
 }
 
+.secondb {
+  width: 50%;
+  position: static;
+  padding: 10px;
+  margin: auto;
+}
+
 .third {
   width: 50%;
   position: static;
@@ -78,15 +86,15 @@ footer {
 }
 
 .work {
-  width: 63%;
-  position: static;
-  margin: auto;
-  padding: 10px;
+  width: 50%;
   background-color: lightsalmon;
   flex: 3;
   display: inline;
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
   position: static;
+}
+
+.container {
+  margin: 0 auto;
 }
