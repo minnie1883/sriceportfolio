@@ -1,5 +1,5 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 html {
@@ -85,16 +85,12 @@ footer {
   margin: auto;
 }
 
-.work {
-  width: 50%;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
   background-color: lightsalmon;
-  flex: 3;
-  display: inline;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: static;
-}
-
-.container {
-  margin: 0 auto;
+  color: black;
+  padding: 30px;
 }
