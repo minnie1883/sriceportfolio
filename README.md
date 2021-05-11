@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to my portfolio of my work. Here you will find links to previous work I have worked on and a little information about me.
+Welcome to my portfolio of my work. Here you will find links to previous work I have worked on, link to my resume, LinkedIn profile and a little information about me.
 
 ## GitHub Link
 
