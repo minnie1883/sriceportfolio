@@ -17,22 +17,28 @@ nav a {
 }
 
 nav a:hover {
-  color: lightsalmon;
+  color: #e6b0aa;
+}
+
+a {
+  color: white;
 }
 
 main {
-  background-color: lightsalmon;
   justify-content: center;
+  background-color: #e6b0aa; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #17202a, #d98880);
+  color: white;
 }
 
 footer {
-  background-color: rebeccapurple;
+  background-color: #566573;
   padding: 20px;
 }
 
 .portfolio {
-  background-color: rebeccapurple;
-  color: lightsalmon;
+  background-color: #17202a;
+  color: #e6b0aa;
   font-size: 20px;
   margin: auto;
   text-align: left;
@@ -90,7 +96,6 @@ footer {
   flex-direction: column;
   font-size: 20px;
   text-align: center;
-  background-color: lightsalmon;
-  color: black;
+  color: white;
   padding: 30px;
 }
